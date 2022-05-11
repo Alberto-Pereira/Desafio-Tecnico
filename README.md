@@ -24,6 +24,23 @@
 
 ## 🔥 Como baixar e iniciar: <a name="howtodownload"></a>
 ## - 🐳 Docker: <a name="docker"></a>
+⚠ Ter o <a href="https://www.docker.com/products/docker-desktop/">Docker</a> instalado.
+- Clonar o repositório:
+```bash
+git clone https://github.com/Alberto-Pereira/Desafio-Tecnico.git
+```
+⚠ Acesse o diretório clonado:
+```bash
+cd MinhasCriptos-API
+```
+- Fazer a build da aplicação:
+```bash
+docker-compose build
+```
+- Iniciar a aplicação:
+```bash
+docker-compose up
+```
 
 ## - 🔨 Manual: <a name="manual"></a>
 
