@@ -1,3 +1,4 @@
+// Package util contém arquivos que auxiliam na criação de casos/testes para a aplicação.
 package util
 
 import (
@@ -8,6 +9,9 @@ import (
 	"github.com/thanhpk/randstr"
 )
 
+// Gerar Emails
+// Gera uma quantidade randômica de emails e retorna em uma lista
+// É possível alterar algumas propriedades
 func GerarEmails() []string {
 	var listaDeEmails []string
 	var emailsRepetidos int
