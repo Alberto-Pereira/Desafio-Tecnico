@@ -92,7 +92,7 @@ if isListaEmailEValoresValida_NomeDoCaso {
 }
 ```
 - É possível alterar "_NomeDoCaso" para o caso que esteja criando.
-- É possível alterar os valores da listaDeCompras e da listaDeEmails
+- É possível alterar os valores da listaDeCompras e da listaDeEmails.
 
 ## 📃 Licença: <a name="license"></a>
 
