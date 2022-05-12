@@ -29,17 +29,17 @@
 ```bash
 git clone https://github.com/Alberto-Pereira/Desafio-Tecnico.git
 ```
-⚠ Acesse o diretório clonado:
+- Acessar o diretório clonado:
 ```bash
-cd MinhasCriptos-API
+cd Desafio-Tecnico
 ```
 - Fazer a build da aplicação:
 ```bash
-docker-compose build
+docker build -t docker-desafio-tecnico .
 ```
 - Iniciar a aplicação:
 ```bash
-docker-compose up
+docker run docker-desafio-tecnico
 ```
 
 ## - 🔨 Manual: <a name="manual"></a>
