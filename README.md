@@ -4,6 +4,7 @@
 
 - [Sobre](#about)
 - [Estrutura](#pattern)
+- [Dependências](#dep)
 - [Como baixar e iniciar:](#howtodownload)
     - [Docker](#docker)
     - [Manual](#manual)
@@ -21,6 +22,11 @@
     - model: contém o arquivo <b>item.go</b>, que representa a entidade principal da aplicação.
     - service: contém o arquivo <b>item-service.go</b>, que contém as regras de serviço da entidade item.
     - util: contém os arquivos <b>gerador-de-emails.go</b> e <b>gerador-de-itens.go</b>, que auxiliam na criação de testes/casos para a aplicação.
+
+## 🌴 Dependências: <a name="dep"></a>
+
+- Testify: <a href="https://github.com/stretchr/testify">github.com/stretchr/testify</a>
+- Randstr: <a href="https://github.com/thanhpk/randstr">github.com/thanhpk/randstr</a>
 
 ## 🔥 Como baixar e iniciar: <a name="howtodownload"></a>
 ## - 🐳 Docker: <a name="docker"></a>
