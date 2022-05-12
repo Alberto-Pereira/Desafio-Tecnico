@@ -1,4 +1,4 @@
-// Package util contém arquivos que auxiliam na criação de casos/testes para a aplicação.
+// Package util contém arquivos que auxiliam na criação de testes/casos para a aplicação.
 package util
 
 import (
