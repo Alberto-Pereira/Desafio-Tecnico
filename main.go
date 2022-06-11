@@ -32,7 +32,7 @@ func main() {
 	listaEmailEValores_Modulo0, isListaEmailEValoresValida_Modulo0 :=
 		service.SepararValoresPorEmail(listaDeCompras_Modulo0, listaDeEmails_Modulo0)
 
-	if isListaEmailEValoresValida_Modulo0 {
+	if isListaEmailEValoresValida_Modulo0.Status == false {
 		fmt.Println("\nLista de emails e valores:")
 		fmt.Println(listaEmailEValores_Modulo0)
 	}
@@ -55,7 +55,7 @@ func main() {
 	listaEmailEValores_ModuloDiferenteDe0, isListaEmailEValoresValida_ModuloDiferenteDe0 :=
 		service.SepararValoresPorEmail(listaDeCompras_ModuloDiferenteDe0, listaDeEmails_ModuloDiferenteDe0)
 
-	if isListaEmailEValoresValida_ModuloDiferenteDe0 {
+	if isListaEmailEValoresValida_ModuloDiferenteDe0.Status == false {
 		fmt.Println("\nLista de emails e valores:")
 		fmt.Println(listaEmailEValores_ModuloDiferenteDe0)
 	}
@@ -73,7 +73,7 @@ func main() {
 	listaEmailEValores_ListaDeComprasVazia, isListaEmailEValoresValida_ListaDeComprasVazia :=
 		service.SepararValoresPorEmail(listaDeCompras_ListaDeComprasVazia, listaDeEmails_ListaDeComprasVazia)
 
-	if isListaEmailEValoresValida_ListaDeComprasVazia {
+	if isListaEmailEValoresValida_ListaDeComprasVazia.Status == false {
 		fmt.Println("\nLista de emails e valores:")
 		fmt.Println(listaEmailEValores_ListaDeComprasVazia)
 	}
@@ -94,7 +94,7 @@ func main() {
 	listaEmailEValores_ListaDeEmailsVazia, isListaEmailEValoresValida_ListaDeEmailsVazia :=
 		service.SepararValoresPorEmail(listaDeCompras_ListaDeEmailsVazia, listaDeEmails_ListaDeEmailsVazia)
 
-	if isListaEmailEValoresValida_ListaDeEmailsVazia {
+	if isListaEmailEValoresValida_ListaDeEmailsVazia.Status == false {
 		fmt.Println("\nLista de emails e valores:")
 		fmt.Println(listaEmailEValores_ListaDeEmailsVazia)
 	}
@@ -109,7 +109,7 @@ func main() {
 	listaEmailEValores_ListaDeComprasEEmailsVazia, isListaEmailEValoresValida_ListaDeComprasEEmailsVazia :=
 		service.SepararValoresPorEmail(listaDeCompras_ListaDeComprasEEmailsVazia, listaDeEmails_ListaDeComprasEEmailsVazia)
 
-	if isListaEmailEValoresValida_ListaDeComprasEEmailsVazia {
+	if isListaEmailEValoresValida_ListaDeComprasEEmailsVazia.Status == false {
 		fmt.Println("\nLista de emails e valores:")
 		fmt.Println(listaEmailEValores_ListaDeComprasEEmailsVazia)
 	}
@@ -127,7 +127,7 @@ func main() {
 	listaEmailEValores_ListaDeComprasRandom, isListaEmailEValoresValida_ListaDeComprasRandom :=
 		service.SepararValoresPorEmail(listaDeCompras_ListaDeComprasRandom, listaDeEmails_ListaDeComprasRandom)
 
-	if isListaEmailEValoresValida_ListaDeComprasRandom {
+	if isListaEmailEValoresValida_ListaDeComprasRandom.Status == false {
 		fmt.Println("\nLista de emails e valores:")
 		fmt.Println(listaEmailEValores_ListaDeComprasRandom)
 	}
@@ -149,7 +149,7 @@ func main() {
 	listaEmailEValores_ListaDeEmailsRandom, isListaEmailEValoresValida_ListaDeEmailsRandom :=
 		service.SepararValoresPorEmail(listaDeCompras_ListaDeEmailsRandom, listaDeEmails_ListaDeEmailsRandom)
 
-	if isListaEmailEValoresValida_ListaDeEmailsRandom {
+	if isListaEmailEValoresValida_ListaDeEmailsRandom.Status == false {
 		fmt.Println("\nLista de emails e valores:")
 		fmt.Println(listaEmailEValores_ListaDeEmailsRandom)
 	}
@@ -165,7 +165,7 @@ func main() {
 	listaEmailEValores_ListaDeComprasEEmailsRandom, isListaEmailEValoresValida_ListaDeComprasEEmailsRandom :=
 		service.SepararValoresPorEmail(listaDeCompras_ListaDeComprasEEmailsRandom, listaDeEmails_ListaDeComprasEEmailsRandom)
 
-	if isListaEmailEValoresValida_ListaDeComprasEEmailsRandom {
+	if isListaEmailEValoresValida_ListaDeComprasEEmailsRandom.Status == false {
 		fmt.Println("\nLista de emails e valores:")
 		fmt.Println(listaEmailEValores_ListaDeComprasEEmailsRandom)
 	}

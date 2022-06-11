@@ -180,7 +180,7 @@ func TestSepararValoresPorEmail_ListaDeComprasRandomica(t *testing.T) {
 	listaEmailEValores, isListaEmailEValoresValida := SepararValoresPorEmail(listaDeCompras, listaDeEmails)
 
 	// ! Pode gerar uma lista de compras vazia
-	if isListaEmailEValoresValida {
+	if isListaEmailEValoresValida.Status == false {
 		assertions.NotEmpty(listaEmailEValores)
 	} else {
 		assertions.Empty(listaEmailEValores)
@@ -205,7 +205,7 @@ func TestSepararValoresPorEmail_ListaDeEmailsRandomica(t *testing.T) {
 	listaEmailEValores, isListaEmailEValoresValida := SepararValoresPorEmail(listaDeCompras, listaDeEmails)
 
 	// ! Pode gerar uma lista de emails vazia
-	if isListaEmailEValoresValida {
+	if isListaEmailEValoresValida.Status == false {
 		assertions.NotEmpty(listaEmailEValores)
 	} else {
 		assertions.Empty(listaEmailEValores)
@@ -226,7 +226,7 @@ func TestSepararValoresPorEmail_ListaDeComprasEEmailsRandomica(t *testing.T) {
 	listaEmailEValores, isListaEmailEValoresValida := SepararValoresPorEmail(listaDeCompras, listaDeEmails)
 
 	// ! Pode gerar uma lista de compras e/ou emails vazia
-	if isListaEmailEValoresValida {
+	if isListaEmailEValoresValida.Status == false {
 		assertions.NotEmpty(listaEmailEValores)
 	} else {
 		assertions.Empty(listaEmailEValores)
