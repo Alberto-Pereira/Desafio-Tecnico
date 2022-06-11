@@ -86,7 +86,7 @@ listaDeEmails_NomeDoCaso := []string{
 listaEmailEValores_NomeDoCaso, isListaEmailEValoresValida_NomeDoCaso :=
     service.SepararValoresPorEmail(listaDeCompras_NomeDoCaso, listaDeEmails_NomeDoCaso)
 
-if isListaEmailEValoresValida_NomeDoCaso {
+if isListaEmailEValoresValida_NomeDoCaso.Status == false {
     fmt.Println("\nLista de emails e valores:")
     fmt.Println(listaEmailEValores_NomeDoCaso)
 }
